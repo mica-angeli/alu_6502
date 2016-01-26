@@ -25,7 +25,6 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu_6502_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu_6502_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="alu_6502_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="alu_6502_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu_6502_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
@@ -39,7 +38,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1453519439" xil_pn:in_ck="-3002111239520563239" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1453519439">
+    <transform xil_pn:end_ts="1453526806" xil_pn:in_ck="-3002111239520563239" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1453526806">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="alu_6502.v"/>
@@ -57,13 +56,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1453519439" xil_pn:in_ck="-3002111239520563239" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1453519439">
+    <transform xil_pn:end_ts="1453526806" xil_pn:in_ck="-3002111239520563239" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1453526806">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="alu_6502.v"/>
       <outfile xil_pn:name="alu_6502_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1453519441" xil_pn:in_ck="-3002111239520563239" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1010100035020772979" xil_pn:start_ts="1453519439">
+    <transform xil_pn:end_ts="1453526807" xil_pn:in_ck="-3002111239520563239" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1010100035020772979" xil_pn:start_ts="1453526806">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="alu_6502_tb_beh.prj"/>
@@ -73,12 +72,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1453519441" xil_pn:in_ck="371893419940021778" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1122105378351432694" xil_pn:start_ts="1453519441">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1453526807" xil_pn:in_ck="371893419940021778" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1122105378351432694" xil_pn:start_ts="1453526807">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="alu_6502_tb_isim_beh.wdb"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
     </transform>
   </transforms>
 

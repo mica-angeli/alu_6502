@@ -22,13 +22,13 @@ int main(int argc, char **argv)
     xsi_register_info(&xsi_info);
 
     xsi_register_min_prec_unit(-12);
-    work_m_00000000001368893807_2188361244_init();
-    work_m_00000000002835994297_2761561699_init();
-    work_m_00000000004134447467_2073120511_init();
+    work_m_05945618221013379439_2188361244_init();
+    work_m_15630747158310409913_2761561699_init();
+    work_m_16541823861846354283_2073120511_init();
 
 
-    xsi_register_tops("work_m_00000000002835994297_2761561699");
-    xsi_register_tops("work_m_00000000004134447467_2073120511");
+    xsi_register_tops("work_m_15630747158310409913_2761561699");
+    xsi_register_tops("work_m_16541823861846354283_2073120511");
 
 
     return xsi_run_simulation(argc, argv);

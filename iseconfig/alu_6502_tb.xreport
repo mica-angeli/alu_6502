@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-01-22T19:35:32</DateModified>
+  <DateModified>2016-01-23T00:29:58</DateModified>
   <ModuleName>alu_6502_tb</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/mrrat/Dropbox/FPGA Design II/Projects/ALU6502/iseconfig/alu_6502_tb.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/mrrat/Dropbox/FPGA Design II/Projects/ALU6502</ImplementationReportsDirectory>
+  <SavedFilePath>/media/ricardo/3A3C8F973C8F4CB7/Users/mrrat/Dropbox/FPGA Design II/Projects/ALU6502/iseconfig/alu_6502_tb.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/media/ricardo/3A3C8F973C8F4CB7/Users/mrrat/Dropbox/FPGA Design II/Projects/ALU6502/</ImplementationReportsDirectory>
   <DateInitialized>2016-01-22T19:35:32</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
